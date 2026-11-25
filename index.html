@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Focusly | Focus timer for students</title>
+  <meta name="description" content="Focusly is a concept focus-timer app landing page, built as a freeCodeCamp Responsive Web Design project and redesigned.">
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="header">
+    <nav id="nav-bar" aria-label="Main">
+      <a class="brand" href="#header"><img id="header-img" src="logo.svg" alt="Focusly logo" width="36" height="36"><span>Focusly</span></a>
+      <ul>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#how-it-works">How it works</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <p class="pill">Concept app &middot; Built for students</p>
+      <h1>Study in focused sprints.<br><em>Finish more, stress less.</em></h1>
+      <p class="sub">Focusly is a calm timer that splits your study time into short sessions with real breaks, then shows how your week went.</p>
+      <a class="btn" href="#cta">Get early access</a>
+      <div class="timer" aria-hidden="true"><svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52" class="track"/><circle cx="60" cy="60" r="52" class="ring"/></svg><span id="clock">25:00</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section id="features">
+      <h2>Everything you need, nothing you do not</h2>
+      <div class="grid">
+        <article class="feature"><span class="ico" aria-hidden="true">&#9201;</span><h3>Smart sessions</h3><p>25 minutes of focus, 5 minutes of rest. Change the lengths to fit your day.</p></article>
+        <article class="feature"><span class="ico" aria-hidden="true">&#127919;</span><h3>One goal at a time</h3><p>Write what you will finish before the timer starts, and tick it off after.</p></article>
+        <article class="feature"><span class="ico" aria-hidden="true">&#128200;</span><h3>Weekly insights</h3><p>See your focus hours by day so you can spot your best time to study.</p></article>
+      </div>
+    </section>
+
+    <section id="how-it-works">
+      <h2>How it works</h2>
+      <p class="lead">Focusly is based on the Pomodoro Technique, created by Francesco Cirillo. Here is the technique explained by its creator.</p>
+      <div class="video-wrap">
+        <iframe id="video" src="https://www.youtube-nocookie.com/embed/dnt2lTdcn8g" title="The Pomodoro Technique, explained by Francesco Cirillo" loading="lazy" allow="accelerometer; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <ol class="steps">
+        <li><strong>Pick a task.</strong> Choose one thing to work on.</li>
+        <li><strong>Start the timer.</strong> Work with no distractions until it rings.</li>
+        <li><strong>Take a short break.</strong> Stand up, drink water, rest your eyes.</li>
+        <li><strong>Repeat.</strong> After four rounds, take a longer break.</li>
+      </ol>
+    </section>
+
+    <section id="pricing">
+      <h2>Simple pricing</h2>
+      <p class="lead">Example plans for this concept page. No real payments happen here.</p>
+      <div class="grid prices">
+        <article class="plan"><h3>Starter</h3><p class="price">$0</p><ul><li>Unlimited timer sessions</li><li>Daily goal list</li><li>7-day history</li></ul></article>
+        <article class="plan popular"><span class="tag">Most popular</span><h3>Student</h3><p class="price">$3<small>/month</small></p><ul><li>Everything in Starter</li><li>Weekly insights</li><li>Custom session lengths</li></ul></article>
+        <article class="plan"><h3>Team</h3><p class="price">$8<small>/month</small></p><ul><li>Everything in Student</li><li>Shared study rooms</li><li>Group stats</li></ul></article>
+      </div>
+    </section>
+
+    <section id="cta">
+      <h2>Be first to try it</h2>
+      <p class="lead">Leave your email and we will let you know when Focusly opens. (Demo form for the freeCodeCamp project.)</p>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+        <label for="email" class="sr">Email address</label>
+        <input id="email" name="email" type="email" placeholder="Enter your email address" required>
+        <input id="submit" type="submit" value="Notify me">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>A <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/" target="_blank" rel="noopener">freeCodeCamp</a> certification project, redesigned by <a href="https://github.com/khaledagina" target="_blank" rel="noopener">Khaled Agina</a>. Focusly is a fictional product.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
