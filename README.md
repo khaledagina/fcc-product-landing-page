@@ -6,6 +6,10 @@ This is a **freeCodeCamp Responsive Web Design certification project**, redesign
 
 **Live demo:** https://khaledagina.github.io/fcc-product-landing-page/
 
+## Preview
+
+![Focusly landing page, desktop view](https://github.com/user-attachments/assets/2506bda0-ecd5-4840-b0dd-2f0a8fa84f91)
+
 ## What changed in the redesign
 - New fictional product, copy, logo and pricing (the original used the sample product)
 - Animated timer hero, feature cards, steps, pricing and signup form
